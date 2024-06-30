@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import "./App.css";
 import App from "./Home.tsx";
@@ -19,7 +19,7 @@ import Psycholog from "./pages/pracownie/psycholog.tsx";
 import Rewalidacja from "./pages/pracownie/rewalidacja.tsx";
 import Rzemiosł from "./pages/pracownie/rzemiosl.tsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <RootLayout />,
