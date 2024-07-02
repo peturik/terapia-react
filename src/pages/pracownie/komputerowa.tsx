@@ -5,9 +5,9 @@ export default function Komputerowa() {
   const [isVisible, setIsVisible] = useState(false);
   const [srcImage, setSrcImage] = useState("");
 
-  function handleClick({ target }: any) {
-    setSrcImage(target.src);
-
+  function handleClick({ target }: React.MouseEvent<HTMLImageElement>) {
+    const t = target as HTMLImageElement;
+    setSrcImage(t.src);
     setIsVisible(true);
   }
   return (
@@ -19,8 +19,9 @@ export default function Komputerowa() {
       </Modal>
       <div className="pracownia" id="komputerowa">
         <p>
-          <b>Pracownia komputerowo introligatorska</b>: Pracownia ta rozwija
-          umiejętności związane z komputerem i introligatorstwem.
+          <b>Pracownia komputerowo introligatorska</b>: Jest to miejsce, gdzie
+          osoby z niepełnosprawnością rozwijają umiejętności komputerowe i
+          introligatorskie, otrzymując wsparcie i narzędzia do nauki.
         </p>
         {/* first */}
         <div className="pracowni__container-img">

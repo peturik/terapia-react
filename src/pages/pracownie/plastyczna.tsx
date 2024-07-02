@@ -5,11 +5,12 @@ export default function Plastyczna() {
   const [isVisible, setIsVisible] = useState(false);
   const [srcImage, setSrcImage] = useState("");
 
-  function handleClick({ target }: any) {
-    setSrcImage(target.src);
-
+  function handleClick({ target }: React.MouseEvent<HTMLImageElement>) {
+    const t = target as HTMLImageElement;
+    setSrcImage(t.src);
     setIsVisible(true);
   }
+
   return (
     <>
       <Modal isVisible={isVisible} onClose={() => setIsVisible(false)}>
@@ -144,10 +145,10 @@ export default function Plastyczna() {
           </div>
 
           <p className="align__center">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
-            dolorum, sed tempore neque eius consequuntur asperiores minima!
-            Consequatur deserunt quos minima nisi id minus dolores tempore. Ex
-            iure ipsam ratione.
+            Z nami będziesz uczestniczyć w plenerze malarskim, gdzie będziesz
+            mieć możliwość malować obrazy na różne tematy. Zapewniamy
+            inspirujące otoczenie i profesjonalne wskazówki, abyś mógł rozwijać
+            swoje umiejętności artystyczne i tworzyć wyjątkowe dzieła.
           </p>
         </div>
         {/* six */}
