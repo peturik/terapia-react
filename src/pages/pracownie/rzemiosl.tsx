@@ -118,11 +118,7 @@ export default function Rzemiosł() {
               onClick={handleClick}
             /> */}
           </div>
-          <p className="align__center">
-            Specjalizujemy się w tworzeniu unikalnych szkatułek i skrzynki.
-            Każdy nasz wyrób jest ręcznie wykonany z dbałością o najdrobniejsze
-            szczegóły. Idealne na prezent lub do ozdoby Twojego domu!
-          </p>
+          <p className="align__center"></p>
         </div>
         {/* six */}
       </div>
