@@ -1,41 +1,16 @@
+// import { Link } from "react-router-dom";
+
 export const Footer = () => {
   return (
-    <footer className="footer container">
-      <div className="organization">
-        <a
-          href="https://mops.krakow.pl/"
-          className="organization__link organization__link--mops"
-        >
-          <img className="organization__img" src="/photo/mops.jpg" alt="mops" />
-        </a>
-      </div>
-      <div className="organization">
-        <a
-          href="https://www.pfron.org.pl/"
-          className="organization__link organization__link--pfron"
-        >
-          <img className="organization__img" src="/photo/reb.png" alt="pfron" />
-        </a>
-      </div>
-      <div className="organization">
-        <a
-          href="https://www.krakow.pl/"
-          className="organization__link organization__link--krakow"
-        >
-          <img
-            className="organization__img"
-            src="/photo/krakow.png"
-            alt="krakow"
-          />
-        </a>
-      </div>
-      <div className="organization">
-        <a
-          href="https://ngo.krakow.pl/"
-          className="organization__link organization__link--ngo"
-        >
-          <img className="organization__img" src="/photo/ngo.jpg" alt="ngo" />
-        </a>
+    <footer className="bg-white px-6 py-6 mt-12">
+      <div className="mx-auto container text-gray-600 text-sm flex justify-between">
+        <p>© by Peturik 2024</p>
+
+        <span className="text-gray-800">
+          {/* <Link to={""}>Dashboard</Link> */}
+          <br />
+          {/* {session && <SignOut />} */}
+        </span>
       </div>
     </footer>
   );

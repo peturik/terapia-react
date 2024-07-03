@@ -1,10 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
 
 const navItems = [
-  // { label: "Home", href: "/" },
+  { label: "HOME", href: "/" },
   { label: "O NAS", href: "/about" },
   { label: "WESPRZYJ NAS", href: "/wsparcia" },
-  { label: "WYTWORY", href: "/wytwory" },
+  // { label: "WYTWORY", href: "/wytwory" },
   { label: "PRACOWNIE", href: "/pracownie" },
   { label: "REKRUTACIA", href: "/rekrutacja" },
 ];

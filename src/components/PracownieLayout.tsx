@@ -9,7 +9,7 @@ export default function LayoutPracownie() {
     <div className="container" id="pracowni">
       <div className="row flex-wrap">
         <AsideLab />
-        <div className="main__content col  col__article-pracownie">
+        <div className="main__content col  col__article-pracownie rounded-r-2xl">
           <div className="pracowni-container">
             <Outlet />
           </div>

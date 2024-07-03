@@ -15,7 +15,7 @@ const navItem = [
 
 export function AsideLab() {
   return (
-    <aside className="main__left-side col col__aside-pracownie">
+    <aside className="main__left-side col col__aside-pracownie rounded-l-2xl">
       <nav className="nav pt-8">
         <ul className="flex-col">
           {navItem.map((item) => (

@@ -1,11 +1,12 @@
 import { Aside } from "./components/Aside";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
   return (
     <main className="container">
       <div className="row">
-        <Aside />
-        <div className="main__content">
+        <Aside style="" />
+        <div className="main__content rounded-tr-2xl">
           <h2 className="text-box-3d co-po-szkole">
             CO PO SZKOLE ?
             <img className="co-po-szkole-img" alt="" />
@@ -20,7 +21,9 @@ export default function Home() {
               DZIECI
             </h1>
             <div className="container-trwa-nabor">
-              <h4 className="trwa-nabor text-box-3d">TRWA NABÓR</h4>
+              <NavLink to="/rekrutacja">
+                <h4 className="trwa-nabor text-box-3d">TRWA NABÓR</h4>
+              </NavLink>
             </div>
             <p className="text-[var(--main-color-1)]">
               UL. TRUSKAWKOWA 4, 31-985 KRAKÓW
@@ -56,6 +59,48 @@ export default function Home() {
           </article>
           <h5>MAMY SAMOCHÓD I POMAGAMY W DOTARCIU DO PLACÓWKI</h5>
           <h5>ZAMAWIAMY OBIADY W ATRAKCYJNEJ CENIE</h5>
+        </div>
+      </div>{" "}
+      <div className="flex justify-center items-center bg-white gap-10 -mr-4 -ml-4 mb-5 rounded-b-2xl">
+        <div className="">
+          <a
+            href="https://mops.krakow.pl/"
+            className="organization__link organization__link--mops"
+            target="_blank"
+            rel="noopener"
+          >
+            <img className="w-52" src="/photo/mops.jpg" alt="mops" />
+          </a>
+        </div>
+        <div className="">
+          <a
+            href="https://www.pfron.org.pl/"
+            className="organization__link organization__link--pfron"
+            target="_blank"
+            rel="noopener"
+          >
+            <img className="w-52" src="/photo/reb.png" alt="pfron" />
+          </a>
+        </div>
+        <div className="">
+          <a
+            href="https://www.krakow.pl/"
+            className="organization__link organization__link--krakow"
+            target="_blank"
+            rel="noopener"
+          >
+            <img className="w-52" src="/photo/krakow.png" alt="krakow" />
+          </a>
+        </div>
+        <div className="">
+          <a
+            href="https://ngo.krakow.pl/"
+            className="organization__link organization__link--ngo"
+            target="_blank"
+            rel="noopener"
+          >
+            <img className="w-52" src="/photo/ngo.jpg" alt="ngo" />
+          </a>
         </div>
       </div>
     </main>

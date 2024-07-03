@@ -2,10 +2,10 @@ import { Aside } from "../components/Aside";
 
 export default function Wsparcia() {
   return (
-    <main className=" container">
+    <main className="container">
       <div className="row">
-        <Aside />
-        <div className="main__content col__article">
+        <Aside style={"rounded-bl-2xl"} />
+        <div className="main__content col__article rounded-r-2xl">
           <div className="text-5xl text-[var(--main-color-3)] font-semibold mt-8 text-center">
             Każdy gęst, <br />
             Nawet najdrobniejszy

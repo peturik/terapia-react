@@ -4,8 +4,8 @@ export default function About() {
   return (
     <main className="container site-about">
       <div className="row">
-        <Aside />
-        <div className="main__content">
+        <Aside style={"rounded-bl-2xl"} />
+        <div className="main__content rounded-r-2xl">
           <h1>
             Warsztat Terapii Zajęciowej, ul. Truskawkowa 4, <br /> 31-985 Kraków
             (Kraków-Nowa-Huta)
@@ -154,7 +154,15 @@ export default function About() {
                 terapii zajęciowej w ramach WTZ
               </li>
               <li>
-                Podanie o przyjęcie do WTZ <a href="./">download</a>
+                Podanie o przyjęcie do WTZ{" "}
+                <a
+                  href="/Załącznik_nr_3_do_umowy_podanie.docx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" underline"
+                >
+                  (download)
+                </a>
               </li>
               <li>Dokumenty dodatkowe - opinia psychologiczna</li>
             </ol>
