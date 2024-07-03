@@ -1,4 +1,5 @@
 import { Aside } from "../components/Aside";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -63,21 +64,44 @@ export default function About() {
             <h2>Nasze pracownie, to:</h2>
             <ul>
               <li>
-                <a href="./">pracownia gospodarstwa domowego</a>
+                <Link to="pracownie/gospodarstwa" className="underline">
+                  pracownia gospodarstwa domowego
+                </Link>
               </li>
               <li>
-                <a href="./">rzemiosł różnych</a>
+                <Link to="/pracownie/rzemiosl" className="underline">
+                  rzemiosł różnych
+                </Link>
               </li>
               <li>
-                <a href="./">krawiecka</a>
+                <Link to="/pracownie/krawiecka" className="underline">
+                  krawiecka
+                </Link>
               </li>
               <li>
-                <a href="./">plastyczna</a>
+                <Link to="/pracownie/plastyczna" className="underline">
+                  plastyczna
+                </Link>
               </li>
               <li>
-                <a href="./">komputerowo - introligatorska</a>
+                <Link to="/pracownie/komputerowa" className="underline">
+                  komputerowo - introligatorska
+                </Link>
               </li>
             </ul>
+            <p>
+              Prace naszych uczestników wykonane podczas zajęć w pracowni
+              plastycznej pokazują niezwykłe talenty i kreatywność. Oto katalog
+              prac:
+              <a
+                href="https://online.pubhtml5.com/itmli/wrxs/"
+                className="underline text-slate-600"
+                target="_blank"
+              >
+                {" "}
+                galerii prac.
+              </a>
+            </p>
             <p>
               W warsztacie zdobędziesz umiejętności potrzebne do pracy i
               samodzielnego życia!
@@ -135,10 +159,6 @@ export default function About() {
             <li>szycie ręczne i na maszynie</li>
             <li>cięcie i szlifowanie drewnianych elementów</li>
 
-            <p>
-              Prace naszych uczestników wykonane podczas zajęć można zobaczyć w
-              <a href="./">galerii prac.</a>
-            </p>
             <p>
               Działalność Warsztatu Terapii Zajęciowej przy ul. Truskawkowa 4 w
               Krakowie jest dofinansowana ze środków

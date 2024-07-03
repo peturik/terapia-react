@@ -32,9 +32,8 @@ export default function Wsparcia() {
               <br />
               <a href="./index.html">19 1090 1665 0000 0001 5004 9851</a>
               <br />
-              W tytule: WARSZTAT TERAPII ZAJĘCIOWEJ
+              W tytule: WTZ Truskawkowa 4, Kraków
               <br />
-              ul. Truskawkowa 4<br />
               PRZEKAZ DAROWIZNĘ
             </div>
             <br />
