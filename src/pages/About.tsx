@@ -64,7 +64,7 @@ export default function About() {
             <h2>Nasze pracownie, to:</h2>
             <ul>
               <li>
-                <Link to="pracownie/gospodarstwa" className="underline">
+                <Link to="/pracownie/gospodarstwa" className="underline">
                   pracownia gospodarstwa domowego
                 </Link>
               </li>

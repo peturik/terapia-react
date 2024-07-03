@@ -28,7 +28,7 @@ export default function Home() {
             <p className="text-[var(--main-color-1)]">
               UL. TRUSKAWKOWA 4, 31-985 KRAKÓW
             </p>
-            <p>TEL. (12) 681 04 77</p>
+            <p>TEL. (12) 681 04 77 | 455 442 864</p>
           </article>
           <h2>OFERTA SKIEROWANA DO CIEBIE!</h2>
           <article>
