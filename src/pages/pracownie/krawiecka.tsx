@@ -26,10 +26,10 @@ export default function Krawiecka() {
         </p>
         {/* first */}
         <div className="pracowni__container-img">
-          <div className="md:flex block ">
+          <div className="md:flex block">
             <img
               className="pracownia__img pracownia__img--left"
-              src="/photo/krawiecka/krawiecka_1_1.jpeg"
+              src="/photo/krawiecka/krawiecka_1_1(2).jpeg"
               alt="krawiecka"
               onClick={handleClick}
             />
@@ -54,10 +54,11 @@ export default function Krawiecka() {
         {/* two */}
         <div className="pracowni__container-img">
           <p className="align__center">
-            Szalik na krośnie to wyjątkowy element odzieży tworzony ręcznie za
-            pomocą tradycyjnego warsztatu tkackiego, znanego jako krosno. Proces
-            ten polega na przeplataniu nici osnowy i wątku, co pozwala na
-            stworzenie różnorodnych wzorów i tekstur.
+            Uczestnicy pracowni krawieckiej mają okazję tworzyć własne rękawice
+            kuchenne. Pod okiem instruktora, uczą się krok po kroku, jak wyciąć
+            materiał, zszyć elementy i dodać wykończenia. To idealna okazja, by
+            rozwijać swoje umiejętności szycia i stworzyć praktyczny, ręcznie
+            wykonany produkt.
           </p>
           <div className="md:flex block">
             <img
@@ -66,12 +67,12 @@ export default function Krawiecka() {
               alt="krawiecka"
               onClick={handleClick}
             />
-            {/* <img
+            <img
               className="pracownia__img pracownia__img--left"
-              src="/photo/krawiecka/krawiecka_2.jpeg"
+              src="/photo/krawiecka/krawiecka_2_2.jpeg"
               alt="krawiecka"
               onClick={handleClick}
-            /> */}
+            />
           </div>
         </div>
         {/* three */}
@@ -123,6 +124,29 @@ export default function Krawiecka() {
               onClick={handleClick}
             /> */}
           </div>
+        </div>
+        {/* five */}
+        <div className="pracowni__container-img">
+          <div className="md:flex block">
+            <img
+              className="pracownia__img pracownia__img--left"
+              src="/photo/krawiecka/krawiecka_5_1.jpeg"
+              alt="krawiecka"
+              onClick={handleClick}
+            />
+            {/* <img
+              className="pracownia__img pracownia__img--left"
+              src="/photo/krawiecka/krawiecka_5.jpeg"
+              alt="krawiecka"
+              onClick={handleClick}
+            /> */}
+          </div>
+          <p className="align__center">
+            Szalik na krośnie to wyjątkowy element odzieży tworzony ręcznie za
+            pomocą tradycyjnego warsztatu tkackiego, znanego jako krosno. Proces
+            ten polega na przeplataniu nici osnowy i wątku, co pozwala na
+            stworzenie różnorodnych wzorów i tekstur.
+          </p>
         </div>
         {/*  */}
       </div>
