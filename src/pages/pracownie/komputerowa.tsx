@@ -25,7 +25,7 @@ export default function Komputerowa() {
         </p>
         {/* first */}
         <div className="pracowni__container-img">
-          <div className="">
+          <div className="labs-img flex-wrap">
             <img
               className="pracownia__img pracownia__img--right"
               src="/photo/komp/komputerowa_1_1.jpeg"
@@ -51,18 +51,20 @@ export default function Komputerowa() {
         </div>
         {/* two */}
         <div className="pracowni__container-img">
-          <div className="">
-            Produkcja wizytówek obejmuje kilka kluczowych etapów:
-            <ul>
-              <li>1. Projektowanie</li>
-              <li>2. Druk</li>
-              <li>3. Wycinanie na gilotynie</li>
-              <li>4. Laminowanie</li>
-            </ul>
-            Każdy z tych etapów jest istotny, aby końcowy produkt był
-            estetyczny, trwały i spełniał oczekiwania .
+          <div className="align__center">
+            <div className="">
+              Produkcja wizytówek obejmuje kilka kluczowych etapów:
+              <ul>
+                <li>1. Projektowanie</li>
+                <li>2. Druk</li>
+                <li>3. Wycinanie na gilotynie</li>
+                <li>4. Laminowanie</li>
+              </ul>
+              Każdy z tych etapów jest istotny, aby końcowy produkt był
+              estetyczny, trwały i spełniał oczekiwania .
+            </div>
           </div>
-          <div className="flex">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/komp/komputerowa_2_1.jpeg"
@@ -79,7 +81,7 @@ export default function Komputerowa() {
         </div>
         {/* three */}
         <div className="pracowni__container-img">
-          <div className="">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--right"
               src="/photo/komp/komputerowa_3_1.jpeg"
@@ -112,7 +114,7 @@ export default function Komputerowa() {
             Dzięki tej metodzie każda strona kroniki staje się spersonalizowanym
             dziełem sztuki, zachowującym wspomnienia i emocje.
           </p>
-          <div className="md:flex block">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/komp/komputerowa_4_1.jpeg"

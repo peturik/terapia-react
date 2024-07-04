@@ -26,12 +26,15 @@ export default function Rzemiosł() {
         </p>
         {/* one */}
         <div className="pracowni__container-img">
-          <img
-            className="pracownia__img"
-            src="/photo/rzemiosł/rzemiosł_1_1.jpeg"
-            alt="rzemiosł"
-            onClick={handleClick}
-          />
+          <div className="labs-img">
+            <img
+              className="pracownia__img"
+              src="/photo/rzemiosł/rzemiosł_1_1.jpeg"
+              alt="rzemiosł"
+              onClick={handleClick}
+            />
+          </div>
+
           <p className="align__center">
             W ramach zajęć uczestnicy uczą się różnych technik pracy z drewnem i
             innymi materiałami, a także poznają zasady kompozycji i estetyki w
@@ -58,7 +61,7 @@ export default function Rzemiosł() {
         </div>
         {/* three */}
         <div className="pracowni__container-img">
-          <div className="">
+          <div className="labs-img flex-wrap">
             <img
               className="pracownia__img"
               src="/photo/rzemiosł/rzemiosł_3_1.jpeg"
@@ -87,7 +90,7 @@ export default function Rzemiosł() {
             charakter. Nasze produkty łączą naturalne materiały z artystycznym
             wykończeniem, tworząc ciepłą i przytulną atmosferę w każdym wnętrzu.
           </p>
-          <div className="flex">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--right"
               src="/photo/rzemiosł/rzemiosł_4_1.jpeg"
@@ -104,7 +107,7 @@ export default function Rzemiosł() {
         </div>
         {/* five   */}{" "}
         <div className="pracowni__container-img">
-          <div className="">
+          <div className="labs-img">
             <img
               className="pracownia__img"
               src="/photo/rzemiosł/rzemiosł_5_1.jpeg"

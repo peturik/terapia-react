@@ -26,7 +26,7 @@ export default function Gospodarstwa() {
         </p>
         {/* first */}
         <div className="pracowni__container-img">
-          <div className="md:flex block ">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/domowego/domowego_1_1.jpeg"
@@ -57,7 +57,7 @@ export default function Gospodarstwa() {
             zdobywają niezbędne kompetencje do pracy w branży gastronomicznej i
             cateringu.
           </p>{" "}
-          <div className="md:flex block ">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/domowego/domowego_2_1.jpeg"
@@ -75,7 +75,7 @@ export default function Gospodarstwa() {
         {/* three */}
         <div className="pracowni__container-img">
           {" "}
-          <div className="md:flex block ">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/domowego/domowego_3_1.jpeg"
@@ -110,7 +110,7 @@ export default function Gospodarstwa() {
               <li>Uruchomienie zmywarki przez naciśnięcie "Start".</li>
             </ol>
           </p>{" "}
-          <div className="md:flex block ">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/domowego/domowego_4_1.jpeg"
@@ -122,7 +122,7 @@ export default function Gospodarstwa() {
         {/* five */}{" "}
         <div className="pracowni__container-img">
           {" "}
-          <div className="md:flex block ">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/domowego/domowego_5_1.jpeg"

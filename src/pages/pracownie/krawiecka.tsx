@@ -26,7 +26,7 @@ export default function Krawiecka() {
         </p>
         {/* first */}
         <div className="pracowni__container-img">
-          <div className="md:flex block">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/krawiecka/krawiecka_1_1(2).jpeg"
@@ -60,7 +60,7 @@ export default function Krawiecka() {
             rozwijać swoje umiejętności szycia i stworzyć praktyczny, ręcznie
             wykonany produkt.
           </p>
-          <div className="md:flex block">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/krawiecka/krawiecka_2_1.jpeg"
@@ -77,7 +77,7 @@ export default function Krawiecka() {
         </div>
         {/* three */}
         <div className="pracowni__container-img">
-          <div className="md:flex md:flex-wrap block ">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/krawiecka/krawiecka_3_1.jpeg"
@@ -110,7 +110,7 @@ export default function Krawiecka() {
             wskazówki i inspirację, byś mógł cieszyć się twórczym procesem i
             pięknymi efektami swojej pracy.
           </p>
-          <div className="md:flex block">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/krawiecka/krawiecka_4_1.jpeg"
@@ -127,7 +127,7 @@ export default function Krawiecka() {
         </div>
         {/* five */}
         <div className="pracowni__container-img">
-          <div className="md:flex block">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/krawiecka/krawiecka_5_1.jpeg"

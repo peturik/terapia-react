@@ -36,9 +36,10 @@
   margin-bottom: 25px;
   height: auto;
   width: 100%;
+  justify-content: center;
 }
 
-@media (min-width: 890px) {
+@media (min-width: 1200px) {
   .pracowni__container-img {
     flex-wrap: nowrap;
     width: auto;
@@ -50,7 +51,7 @@
   object-position: left;
   max-height: 300px;
   max-width: 300px;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 
 .pracownia__img--left {
@@ -66,4 +67,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.labs-img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  /* flex-wrap: wrap; */
+}
+@media (max-width: 768px) {
+  .labs-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

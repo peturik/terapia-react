@@ -26,7 +26,7 @@ export default function Plastyczna() {
         </p>
         {/* first */}
         <div className="pracowni__container-img">
-          <div className="md:flex block">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/plastyczna/photo1719684284.jpeg"
@@ -52,8 +52,7 @@ export default function Plastyczna() {
           <p className="align__center">
             Nauczysz się robić stroik bożonarodzeniowy z szyszek
           </p>
-          {/* <div className="md:flex block"> */}
-          <div className="flex">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--right"
               src="/photo/plastyczna/photo1719684669.jpeg"
@@ -70,7 +69,7 @@ export default function Plastyczna() {
         </div>
         {/* three */}
         <div className="pracowni__container-img">
-          <div className="md:flex block">
+          <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/plastyczna/plastyczna_3.jpeg"
@@ -105,7 +104,7 @@ export default function Plastyczna() {
             się ją farbą, a następnie odbija na papierze lub innym materiale,
             tworząc druk wypukły.
           </p>
-          <div className="">
+          <div className="labs-img flex-wrap">
             <img
               className="pracownia__img pracownia__img--right"
               src="/photo/plastyczna/plastyczna_4.jpeg"
@@ -129,7 +128,7 @@ export default function Plastyczna() {
         </div>
         {/* five */}
         <div className="pracowni__container-img">
-          <div className="">
+          <div className="labs-img flex-wrap">
             <img
               className="pracownia__img pracownia__img--left"
               src="/photo/plastyczna/plastyczna_5_1.jpeg"
