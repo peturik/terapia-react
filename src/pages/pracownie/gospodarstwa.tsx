@@ -83,7 +83,7 @@ export default function Gospodarstwa() {
               onClick={handleClick}
             />
           </div>
-          <p className="align__center">
+          <div className="align__center">
             <ol>
               Zdobywanie podstawowych umiejętności obsługi pralki :
               <li>Sortowanie prania według koloru i rodzaju materiału.</li>
@@ -96,11 +96,11 @@ export default function Gospodarstwa() {
               <li>Dodanie detergentui płynu do płukania. </li>
               <li> Uruchomienie pralki przez naciśnięcie "Start".</li>
             </ol>
-          </p>
+          </div>
         </div>
         {/* four */}
         <div className="pracowni__container-img">
-          <p className="align__center">
+          <div className="align__center">
             <ol>
               Zdobywanie podstawowych umiejętności obsługi zmywarki obejmuje:
               <li>Sortowanie naczyń i usunięcie resztek jedzenia.</li>
@@ -109,7 +109,7 @@ export default function Gospodarstwa() {
               <li>Ustawienie programu mycia odpowiedniego do naczyń.</li>
               <li>Uruchomienie zmywarki przez naciśnięcie "Start".</li>
             </ol>
-          </p>{" "}
+          </div>{" "}
           <div className="labs-img">
             <img
               className="pracownia__img pracownia__img--left"

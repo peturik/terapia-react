@@ -1,4 +1,4 @@
-import { Aside } from "./components/Aside";
+import { Aside } from "./components/aside/Aside";
 import { NavLink } from "react-router-dom";
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
     <main className="container">
       <div className="row">
         <Aside style="" />
-        <div className="main__content rounded-tr-2xl">
+        <div className="main__content md:rounded-tr-2xl ">
           <h2 className="text-box-3d co-po-szkole">
             CO PO SZKOLE ?
             <img className="co-po-szkole-img" alt="" />

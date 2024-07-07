@@ -1,4 +1,4 @@
-import { Aside } from "../components/Aside";
+import { Aside } from "../components/aside/Aside";
 import { Link } from "react-router-dom";
 
 export default function About() {
