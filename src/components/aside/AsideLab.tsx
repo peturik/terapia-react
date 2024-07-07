@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./Aside.module.css";
 import clsx from "clsx";
@@ -19,6 +19,7 @@ const navItem = [
 
 export function AsideLab() {
   const [isOpen, setIsOpen] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -26,11 +27,15 @@ export function AsideLab() {
 
   return (
     <aside className="main__left-side col col__aside-pracownie md:rounded-l-2xl">
-      <div className={styles.accordionMenu}>
+      <div>
         <button onClick={toggleMenu} className={styles.menuButton}>
           Pracownie Menu
         </button>
-        <nav className={clsx(isOpen || styles.navMobile, "nav md:pt-8")}>
+        <nav
+          ref={contentRef}
+          className={clsx(isOpen || styles.menuContent, "nav md:pt-8")}
+          style={{ height: isOpen ? contentRef.current?.scrollHeight : "0px" }}
+        >
           <ul className="flex-col">
             {navItem.map((item) => (
               <li className="nav-item" key={item.label}>

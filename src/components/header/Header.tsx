@@ -43,9 +43,16 @@ export const Header = () => {
         <button className={styles.menuButton} onClick={toggleMenu}>
           ☰
         </button>
-        {isMenuOpen && (
+        {/* {isMenuOpen && (
           <div className={styles.backdrop} onClick={toggleMenu}></div>
-        )}
+        )} */}
+
+        <div
+          className={`${styles.backdrop} ${
+            isMenuOpen ? styles.backdropVisible : ""
+          }`}
+          onClick={toggleMenu}
+        ></div>
       </div>
     </header>
   );
