@@ -39,8 +39,9 @@ export const Modal = ({
             <motion.div className={styles.modalContainer}>
               <div
                 className={cx(styles.modal, className)}
-                onClick={(e) => {
-                  e.stopPropagation();
+                onClick={() => {
+                  // e.stopPropagation();
+                  onClose();
                 }}
               >
                 {children}

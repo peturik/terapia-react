@@ -294,6 +294,12 @@ body {
     transform: rotate(-10deg);
   }
 
+  @media (max-width: 768px) {
+    .trwa-nabor {
+      top: -80px;
+    }
+  }
+
   .co-po-szkole {
     width: fit-content;
   }
