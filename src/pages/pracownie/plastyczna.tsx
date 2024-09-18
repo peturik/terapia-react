@@ -151,7 +151,7 @@ export default function Plastyczna() {
           </p>
         </div>
         {/* six */}
-        <div className="pracowni__container-img">
+        {/* <div className="pracowni__container-img">
           <p className="align__center">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
             dolorum, sed tempore neque eius consequuntur asperiores minima!
@@ -166,7 +166,7 @@ export default function Plastyczna() {
               onClick={handleClick}
             />
           </div>
-        </div>
+        </div> */}
         {/* seven */}
         {/* <div className="pracowni__container-img">
           <img
