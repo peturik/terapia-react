@@ -7,7 +7,7 @@ export default function Wsparcia() {
         <Aside style={"rounded-bl-2xl"} />
         <div className="main__content col__article rounded-r-2xl">
           <div className="text-5xl text-[var(--main-color-3)] font-semibold mt-8 text-center">
-            Każdy gęst, <br />
+            Każdy gest, <br />
             Nawet najdrobniejszy
             <br />
             Zmienia świat,
@@ -32,13 +32,13 @@ export default function Wsparcia() {
               <br />
               <a href="./index.html">19 1090 1665 0000 0001 5004 9851</a>
               <br />
-              W tytule: WTZ Truskawkowa 4, Kraków
+              W tytule: WTZ Truskawkowa
               <br />
-              PRZEKAZ DAROWIZNĘ
+              DAROWIZNĘ
             </div>
             <br />
             <div className="text-4xl mt-10 font-semibold text-[var(--main-color-3)] text-center">
-              Dzieńkujemy!
+              Dziękujemy!
             </div>
           </div>
           {/* <img

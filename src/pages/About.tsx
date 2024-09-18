@@ -49,8 +49,7 @@ export default function About() {
                 blisko miejsca zamieszkania
               </li>
               <li>
-                Warsztat znajduje sie na I piętrze jednopiętrowego budynku bez
-                windy
+                Warsztat znajduje sie na I piętrze jednopiętrowego budynku.
               </li>
             </ul>
             <p>
